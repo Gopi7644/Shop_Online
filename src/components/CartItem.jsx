@@ -27,11 +27,11 @@ const CartItem = ({ item, itemIndex }) => {
 
                     <div className='flex items-center justify-between py-12'>
                         <p className='font-bold  text-green-500'>₹{item.price}</p>
-                        <div
+                        <button
                             className='text-red-500 text-8'
                             onClick={removeFromCart}>
                             <MdAutoDelete />
-                        </div>
+                        </button>
                     </div>
 
                 </div>
